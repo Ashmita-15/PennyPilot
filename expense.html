@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="expense.css">
+</head>
+<body>
+    <header>
+        <ul class="navbar">
+        <li><img class="profile" src="https://images.rawpixel.com/image_png_social_square/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAxL3JtNjA5LXNvbGlkaWNvbi13LTAwMi1wLnBuZw.png">
+        <div id="content"><h2>Hello Ashmita!</h2>
+        <p>~Welcome Back~</p>
+        </div>
+    </li>
+       
+       <li class="lis">Login/Sign Up Page</li>
+       <li class="lis">Expense Tracker</li>
+       <li class="lis">Budget Goals</li>
+       <li class="lis">Dashboard</li>
+       <li class="lis"></li>
+       <li> <img class="bell"src="noti.svg">
+       </li>
+    </ul>
+    </header>
+    <div class="card">
+        <div id="h22"><p id="balance">Total balance:</p>
+        <p id="tot">$2168.00</p></div>
+       <ul class="un"><li class="list"><span><img id="down" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpfNRmbe1yrZ-ZbWqv2TWLhjIJoUbih8lf2A&s"></span></li> 
+       
+       <li><span id="inc">Income</span></li>
+        <li>
+            <img id="up" src="https://static-00.iconduck.com/assets.00/upwards-black-arrow-emoji-512x512-ddul96be.png"></li>
+       <li><p class="exp">Expenses</p></li></ul>
+       <div class="income">$1840.00</div>
+       <div id="expense">$0.00</div>
+       <div class="dot">...</div>
+    </div>
+    <div class="categor">
+        <span>Categories</span>
+       <span><button>See all</button></span>
+       <ul>
+        <li class="images"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJaojVoiDoVG9RwIURkmcco5mwFH6US-BHVw&s"></li>
+        <li class="images"><img src="https://toppng.com/uploads/preview/foodservice-appetizers-are-included-and-will-be-served-food-icon-png-red-11563041881pb0s3nwsgn.png"></li>   
+        <li class="images"><img src="https://cdn-icons-png.freepik.com/512/8488/8488204.png"></li> 
+        <li class="images"><img src="https://static.vecteezy.com/system/resources/previews/022/039/834/non_2x/grocery-icon-style-vector.jpg"></li> 
+        <li class="images"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDd85q5gonmv1IKcJVDDrj7RXcAU0geVMaCQ&s"></li> 
+        </ul>
+    </div>
+    <div class="expenses"><span>Recent Expenses</span>
+        <span><button>See all</button></span>
+    </div>
+    <div class="container">
+        <form id="expense-form">
+            <label for="description">Description:</label>
+            <input type="text" id="description" required>
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount" required>
+            <button class="add" type="submit">Add Expense</button>
+        </form>
+        <ul id="expense-list"></ul>
+    </div>
+    <script src="expense.js"></script>
+</body>
+</html>
